@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPageElements  extends CommonMethods {
+
     @FindBy (xpath = "//div[@id='divLogo']/img")
     public WebElement logo;
 
